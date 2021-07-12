@@ -66,6 +66,6 @@ class InstagramBot:
         self.browser.get("https://www.instagram.com")        
     
 
-bot = InstagramBot(username="anggerraka06", password="rakaraina12")
+bot = InstagramBot(username="username", password="password")
 bot.login()
 bot.like_hashtag('gameconsign', 10)
